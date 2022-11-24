@@ -5,7 +5,7 @@ use \src\Config;
 use \src\models\Pagamento;
 
 class PagamentosHandler {
-
+	//fdf
 	public static function adicionarPagamento($name, $clienteName, $id, $valor, $vencimento, $parcelas){
 		$vencimentoOriginal = $vencimento;
 		
